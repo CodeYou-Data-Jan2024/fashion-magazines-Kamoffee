@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS subscriptions;
+ROP TABLE IF EXISTS subscriptions;
 CREATE TABLE subscriptions (
     subscription_id INTEGER PRIMARY KEY,
     description TEXT NOT NULL,
@@ -40,8 +40,7 @@ INSERT INTO customers (customer_id, customer_name, address)
 VALUES 
 (1, 'Allie Rahaim', '123 Broadway'),
 (2, 'Jacquline Diddle', '456 Park Ave.'),
-(3, 'Lizabeth Letsche', '789 Main St.'),
-(4, 'Jessia Butman', '1 Columbus Ave.'),
+(3, 'Lizabeth Letsche', '789 Main St.'),(4, 'Jessia Butman', '1 Columbus Ave.'),
 (5, 'Inocencia Goyco', '12 Amsterdam Ave.'),
 (6, 'Bethann Schraub', '29 Monticello'),
 (7, 'Janay Priolo', '81 Harrisburg'),
