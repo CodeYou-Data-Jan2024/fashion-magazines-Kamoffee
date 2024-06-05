@@ -3,5 +3,5 @@ SELECT customers.customer_name AS Customer,
 FROM orders
 INNER JOIN customers ON customers.customer_id = orders.customer_id
 INNER JOIN subscriptions ON orders.subscription_id = subscriptions.subscription_id
-WHERE orders.order_status = 'unpaid'
+WHERE orders.order_status = 'unpaid' AND subscriptions.description = 'Fashion Magazine'
 GROUP BY customers.customer_name;
