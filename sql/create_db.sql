@@ -1,4 +1,4 @@
-DROP TABLE IF EXISTS subscriptions;
+ROP TABLE IF EXISTS subscriptions;
 CREATE TABLE subscriptions (
     subscription_id INTEGER PRIMARY KEY,
     description TEXT NOT NULL,
